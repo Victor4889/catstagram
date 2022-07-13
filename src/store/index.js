@@ -5,6 +5,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    imagenes: [],
+    infinityS:true,
+    pagina:0
   },
   getters: {
   },
